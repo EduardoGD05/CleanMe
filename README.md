@@ -56,3 +56,6 @@ La IA, integrada mediante Gemini, ofrece:
 - Asistencia al usuario.
 - Recomendaciones personalizadas.
 - Soporte en la resolución de problemas.
+
+##Extra
+Para más información del funcionamiento de la página puede revisar el [Manual de Usuario](ManualUsuario.md) proporcionado en este mismo repositorio.
