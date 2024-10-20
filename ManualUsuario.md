@@ -1,3 +1,6 @@
+# ***Manual de Usuario***
+ Este documento está diseñado para guiarte en el uso y las funcionalidades de la plataforma, proporcionando instrucciones claras y detalladas para que puedas navegar y aprovechar al máximo todos los servicios disponibles.
+ 
 # Página de Inicio
 
 Esta pantalla es lo primero que verás al entrar en la aplicación. En ella, se encuentra el nombre de la empresa, una cálida bienvenida y información sobre los servicios que ofrecemos, así como una pequeña guía sobre cómo funciona nuestro servicio.
