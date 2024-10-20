@@ -28,6 +28,8 @@ La barra de navegación es como el mapa de un parque de diversiones, guiándote 
 - **Iniciar Sesión**: El botón “Iniciar Sesión” te permite ingresar tus credenciales para acceder a tu cuenta personal. Esta opción está destinada a usuarios registrados que desean entrar a su propio espacio, asegurando que solo tú puedas acceder a tu información personal y pedidos.
 
 - **Cerrar Sesión**: El botón “Cerrar Sesión” te permite salir de tu sesión de usuario. Es como cerrar la puerta detrás de ti al salir de un lugar, asegurando que tu información personal esté protegida y que tu cuenta no pueda ser accedida por otros una vez que hayas terminado de usar la aplicación. Este botón es esencial para mantener la seguridad y privacidad de tus datos.
+  
+![Barra de Navegación](Capturas/navbar.png)
 
 # Servicios
 
@@ -40,6 +42,8 @@ El botón “Servicios” te permite explorar las diferentes opciones de servici
 - **Orden de Servicio**: El botón “Orden de Servicio” es para que los empleados puedan crear la orden de servicio cuando se completa un pedido. Esta opción está diseñada específicamente para el uso interno del personal de la empresa. Al acceder a esta función, los empleados pueden generar y gestionar órdenes de servicio, asegurando que todos los pedidos sean procesados y completados de manera eficiente. Este botón es crucial para mantener la operatividad interna y asegurar que se cumplan los tiempos de entrega y la satisfacción del cliente.
 
 - **ChatBot**: El botón “ChatBot” te dirige a la página del asistente virtual para los pedidos. Esta herramienta ofrece una forma rápida y conveniente de obtener ayuda con tus pedidos. Al interactuar con el ChatBot, podrás hacer preguntas, recibir recomendaciones y obtener asistencia en tiempo real. Esta función está diseñada para mejorar tu experiencia como usuario, proporcionando soporte inmediato y reduciendo el tiempo de espera para resolver consultas o problemas relacionados con tus pedidos.
+
+![Servicios](Capturas/servicios.png)
  
 # Crear Cuenta
 
@@ -67,6 +71,8 @@ Los campos que deberás completar son:
 
 - **Indicaciones del domicilio**: Proporciona instrucciones adicionales para facilitar las entregas.
 
+![Crear Cuenta](Capturas/signup.png)
+
 Una vez que hayas completado todos los campos, podrás presionar el botón “Registrarse” para crear tu cuenta. Al hacer clic, el sistema verificará que todos los campos obligatorios estén completos y que la información sea válida. Si todo está en orden, tu cuenta se creará y serás dirigido a una pantalla de bienvenida o a tu nuevo perfil. Este proceso asegura que puedas comenzar a usar la plataforma de inmediato, con todos tus datos registrados para una experiencia óptima y sin inconvenientes.
 
 # Iniciar Sesión
@@ -80,6 +86,8 @@ Los campos que deberás completar son los siguientes:
 - **Contraseña**: Aquí deberás ingresar la contraseña que estableciste al crear tu cuenta. Este campo admite todo tipo de caracteres, incluyendo letras, números y caracteres especiales. Es importante que introduzcas tu contraseña con precisión para evitar errores de inicio de sesión.
 
 Una vez que ambos campos hayan sido llenados correctamente, podrás presionar el botón “Entrar” para iniciar sesión. Al hacer clic en este botón, el sistema verificará que las credenciales proporcionadas coincidan con las registradas en nuestra base de datos. Si la información es correcta, serás autenticado y podrás acceder a tu cuenta de inmediato. Este proceso asegura que solo los usuarios autorizados puedan ingresar, protegiendo la seguridad y privacidad de cada cuenta.
+
+![Inicio de sesión](Capturas/login.png)
 
 # Pedidos
 
@@ -127,7 +135,8 @@ El campo de especificaciones permite dar indicaciones adicionales sobre el lavad
 
 Una vez que hayas seleccionado las opciones correspondientes y llenado los campos necesarios, podrás ver un resumen del pedido al presionar el botón final. Este resumen te permitirá revisar todos los detalles antes de confirmarlo, asegurando que toda la información sea correcta. Este proceso es crucial para garantizar que la sucursal reciba y procese tu pedido de manera eficiente y precisa, proporcionando el mejor servicio posible.
 
-
+![Pedidos 1](Capturas/pedido1.png)
+![Pedido 2](Capturas/pedido2.png)
 # Resumen del Pedido
 
 Al presionar el botón final en el paso anterior (“Ver resumen del pedido”), se desplegará una ventana donde podrás ver todo lo que has pedido, así como modificar las cantidades y eliminar productos.
@@ -165,6 +174,8 @@ En la parte inferior derecha de la pantalla, la interfaz presenta dos botones di
   - **Color y Texto**: Color gris con letras blancas, indicando que es una acción secundaria.
   - **Funcionalidad**: Al hacer clic, puedes cerrar la interfaz actual, posiblemente cancelando o suspendiendo la acción en curso.
 
+![Resumen Pedido](Capturas/pedido3.png)
+
 # Seguimiento de Pedidos
 
 Cuando selecciones el botón de “Seguimiento de Pedidos”, serás dirigido a una pantalla donde podrás ver todos los pedidos realizados por los usuarios. Aquí tendrás acceso a detalles como el ID del pedido, información del usuario y detalles del pedido.
@@ -197,6 +208,7 @@ Cada pedido puede ser modificado y cancelado, teniendo en cuenta que no se ha re
 
 Si tienes múltiples pedidos, podrás visualizar el resto utilizando la barra de desplazamiento lateral del lado derecho de la ventana, desplazándola de arriba a abajo para navegar por los pedidos. Si la ventana está minimizada, también podrás verificar las diferentes columnas que contienen los detalles del pedido mediante una barra de desplazamiento horizontal, desplazándola de iz
 
+![Modificar Pedido](Capturas/seguimiento1.png)
 
 # Modificar Pedido
 
@@ -216,7 +228,8 @@ Cada prenda tiene un precio específico por unidad, que se sumará al total del 
 
 Para finalizar la modificación del pedido, es necesario que hagas clic en el botón “Enviar Pedido”. Si decides no realizar modificaciones, simplemente haz clic en “Cerrar”.
 
-
+![Modify](Capturas/modify1.png)
+![Modify](Capturas/modify2.png)
 # Historial
 
 Cuando el usuario seleccione el botón desplegable de “Servicios” y presione sobre la opción de “Historial”, será dirigido a una pantalla donde podrá ver todos los pedidos realizados hasta el momento. En esta sección, se muestran los siguientes detalles:
@@ -241,6 +254,8 @@ Cuando el usuario seleccione el botón desplegable de “Servicios” y presione
 
 - **Detalles**: Es el conjunto de prendas que contiene el pedido, especificando el nombre de la prenda, la cantidad y el peso.
 
+![Historial](Capturas/historial.png)
+
 # ChatBot
 
 Cuando el usuario seleccione el botón desplegable de “Servicios” y presione sobre la opción de “ChatBot”, será dirigido a una pantalla donde podrá ver una interfaz de chat en tiempo real. En esta pantalla, el usuario podrá interactuar con un asistente virtual que le ayudará con diversas consultas y tareas.
@@ -254,6 +269,8 @@ El asistente virtual cumple las siguientes funciones:
 Además, este asistente mejora la experiencia del usuario al ofrecer asistencia personalizada, reduce la carga del servicio al cliente al automatizar respuestas a preguntas frecuentes y aumenta la interacción de los usuarios con la página web.
 
 El usuario debe escribir sus preguntas en una caja de texto. Después de escribir, puede presionar la tecla ENTER o el botón “Enviar” para iniciar la conversación con el asistente virtual. Una vez realizada la pregunta, el asistente proporcionará la respuesta más cercana a lo que se ha solicitado.
+
+![ChatBot](Capturas/chatbot.png)
 
 # Mapas
 
@@ -269,6 +286,7 @@ Además, el usuario tendrá la opción de expandir el mapa para visualizar todos
 
 Esta funcionalidad le permite al usuario consultar todas las sucursales disponibles para realizar pedidos en su área, brindándole más seguridad al momento de hacer sus pedidos, ya que podrá identificar la ubicación de la sucursal y contactarla directamente.
 
+![Maps](Capturas/maps.png)
 
 # Órdenes de Servicio
 
@@ -289,6 +307,7 @@ Cuando el empleado seleccione el botón desplegable de “Servicios” y presion
 
 En esta página, el empleado de la sucursal puede verificar todos los pedidos pendientes de completar. La información contenida permite identificar a dónde y a quién se está enviando. Al finalizar un pedido, esta página sirve para realizar una orden de servicio que marca el pedido como completado y mantiene un registro de todos los pedidos finalizados en la sucursal.
 
+![Modify](Capturas/ordenserv.png)
 
 # Ver Órdenes de Servicio
 
@@ -307,3 +326,5 @@ Cuando el empleado seleccione el botón desplegable de “Servicios” y presion
 ## Funcionalidad
 
 En esta página, el empleado podrá verificar las órdenes completadas, con acceso a la información del usuario y la fecha de finalización. Esto facilita la tarea del empleado al permitirle revisar las Órdenes de Servicio que se realizaron en esa sucursal de manera sencilla y efectiva.
+
+![Modify](Capturas/verordenserv.png)
