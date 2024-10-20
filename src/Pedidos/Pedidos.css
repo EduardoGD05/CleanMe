@@ -1,0 +1,147 @@
+/* Estilo para ajustar el espacio mínimo posible en los input groups */
+.input-group {
+    width: auto; 
+    max-width: fit-content;
+    min-width: 0;
+  }
+  
+  /* Estilo para que los inputs (excepto las especificaciones adicionales) ocupen el mínimo espacio posible */
+  .form-control:not(textarea):not(#inputPrecio):not(#inputPeso) {
+    width: auto;
+  }
+  
+  /* Estilo para reducir el tamaño de los inputs de precio y peso */
+  #inputPrecio,
+  #inputPeso {
+    width: 50px; /* Puedes ajustar este valor según sea necesario */
+  }
+  
+  /* Estilo para mantener la separación uniforme entre los inputs */
+  .form-group {
+    margin-bottom: 15px;
+    width:fit-content;
+  }
+  
+  /* Estilo para limitar el tamaño máximo del precio a 100px */
+  #formPago{
+    max-width: 100px;
+   
+  }
+  
+  /* Estilo para que las especificaciones adicionales tomen el mayor espacio posible */
+  #formEspecificaciones textarea {
+    width: 100%;
+  }
+
+  #EnviarPedido{ 
+    display: block; /* Hace que el botón sea un bloque para poder centrarlo */
+    margin: 20px auto; /* Margen automático a izquierda y derecha para centrar */
+    width: 200px; /* Ancho del botón */
+    height: 50px;
+
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 5px; 
+  }
+  
+  .checkbox-input { 
+    margin: 8px;
+  }
+  
+  .input-group-text {
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+  
+  .input-group-text.rounded {
+    border-radius: 0.25rem;
+  }
+
+  #TituloPedido{
+    color: orange;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+  }
+ 
+  #DetallesPedido{
+    justify-content: center;
+    margin: auto;
+  }
+
+  #RadioTipoServicio{ 
+    justify-self: center;
+    justify-content: center;
+    margin-left: 15%;
+
+  }
+
+  #TextoPedido{
+   max-width: 350px; 
+   color:orangered;
+
+  }
+
+  #middleCol{ 
+    max-width: 2px;
+    border-radius: 50px;
+    border-right: 10px solid black; /* Color y grosor del borde */
+    border-color: orange; 
+    background-color: orange;
+    border-right: 50px; 
+    padding: 5px;
+    margin: 20px;
+    margin-bottom: 0px;
+
+
+  }
+
+  #buttonPedido{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  /* Estilos para la tabla dentro del modal */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilos para las celdas de la tabla */
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+/* Estilos para la primera fila de la tabla (cabecera) */
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Estilos para los inputs dentro de las celdas de la tabla */
+.table input[type="number"] {
+  width: 60px;
+  padding: 6px;
+}
+
+/* Estilos para los botones dentro de las celdas de la tabla */
+.table button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de cierre del modal */
+.btn-secondary {
+  background-color: #6c757d;
+}

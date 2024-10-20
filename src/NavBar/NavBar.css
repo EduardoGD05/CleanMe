@@ -1,0 +1,163 @@
+/*Barra superior*/
+.Navbar {
+  padding: 10px;
+  background-color: rgb(124, 189, 255);
+  width: inherit;
+  min-width: fit-content;
+  height: max-content;
+  margin-bottom: 5px;
+}
+
+/*Título de la página*/
+.NavBarTitle {
+  max-width: 270px;
+  font-size: 30px;
+  margin-right: 10px;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  background-color: #e6a329;
+  border-color: #e6a329;
+  border-radius: 15px;
+  padding: 10px;
+  text-wrap: nowrap;
+  transition: 0.3s;
+}
+.NavBarTitle:hover {
+  color: #e6a329;
+  border-color: #fff;
+  background-color: #fff;
+  box-shadow: 10px 5px 5px rgba(57, 102, 148, 0.281);
+} 
+.NavBarTitle:focus {
+  background-color: #e6a329;
+  border-color: #e6a329;
+  color: #FFF; } 
+
+
+/*Pestañas de navegación*/
+.Nav {
+  text-wrap: nowrap;
+  margin-left: auto;
+  font-size: medium;
+  font-weight: 600;
+}
+
+/*Barra de busqueda*/
+.FormControl {
+  width: 100%;
+  max-width: 470px;
+  /* min-width: 90px; */
+  min-width: 290px;
+  margin-right: 5px;
+  padding: 10px;
+  font-weight: 550;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+/*Botón de la barra de nusqueda*/
+.SearchButton {
+  width: fit-content;
+  height: 45px;
+  margin-right: 10px;
+  font-weight: 700;
+  color: #fff;
+  border-color: #e6a329;
+  background-color: #e6a329;
+}
+
+.SearchButton:hover {
+  color: #e6a329;
+  border-color: #fff;
+  background-color: #fff;
+
+  box-shadow: 10px 5px 5px rgba(57, 102, 148, 0.281);
+}
+
+.Collapse {
+  background-color: lightgrey;
+  text-wrap: nowrap;
+  width: fit-content;
+}
+
+/* Navbar.css */
+.navbar-item {
+  padding: 10px 12px; /* Añade espaciado para hacer que el borde sea más visible */
+  margin: 5px; /* Agrega un espacio entre elementos */
+  border-radius: 10px; /* Opcional: Agrega bordes redondeados */
+  text-align: center; /* Alinea el texto horizontalmente */
+  color: #000; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado enlaces */
+  background-color: #b7ebff98; /* Fondo del elemento */
+  height: 45px;
+}
+
+.navbar-item:hover {
+  background-color: #e6a329; /* Cambia el fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+
+  box-shadow: 10px 5px 5px rgba(57, 102, 148, 0.281);
+}
+ 
+
+#navbarScrollingDropdown {
+  background-color: #b7ebff98;
+  border-radius: 10px;
+  text-align: center; /* Alinea el texto horizontalmente */
+  color: #000; /* Color del texto */
+  width: 90px;
+}
+#navbarScrollingDropdown:hover {
+  background-color: #e6a329; /* Cambia el fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+
+  box-shadow: 10px 5px 5px rgba(57, 102, 148, 0.281);
+}
+#Home {
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 35px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+
+#toggle{
+  background-color: #e6a329;
+  color: #fff;
+  width: 60px;
+  text-align:center;
+  padding: 5px;
+  border-color: #e6a329;
+  border-radius: 10px;
+  border-width: 3px;
+
+}
+
+.search-container{
+  display: inline-flex;
+  flex-grow: 2; /* Esta propiedad hará que el contenedor se expanda según el espacio disponible */
+
+}
+
+#nav-dropdown{ 
+  padding: 10px 12px; /* Añade espaciado para hacer que el borde sea más visible */
+  margin: 5px; /* Agrega un espacio entre elementos */ 
+  border-radius: 10px; /* Opcional: Agrega bordes redondeados */
+  text-align: center; /* Alinea el texto horizontalmente */
+  color: #000; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado enlaces */
+  background-color: #b7ebff98; /* Fondo del elemento */
+  height: 45px;
+}
+
+#nav-dropdown:hover{ 
+  background-color: #e6a329; /* Cambia el fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+
+  box-shadow: 10px 5px 5px rgba(57, 102, 148, 0.281);
+}

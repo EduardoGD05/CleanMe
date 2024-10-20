@@ -1,0 +1,20 @@
+ 
+.custom-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 5px;
+  }
+  
+  .custom-button.cancel {
+    background-color: rgb(230, 24, 24); /* Color naranja */
+    color: white;
+  }
+  
+  .custom-button.modify {
+    background-color: rgb(75, 75, 155); /* Color azul claro */
+    color: white;
+  }

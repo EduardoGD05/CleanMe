@@ -1,0 +1,24 @@
+.ordenes-servicio-container {
+    margin: 20px;
+  }
+  
+  .ordenes-servicio-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ordenes-servicio-table th,
+  .ordenes-servicio-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .ordenes-servicio-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .ordenes-servicio-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

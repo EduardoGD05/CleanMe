@@ -1,0 +1,68 @@
+.S-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center; 
+}
+
+.S-format {
+  
+  border-style: outset;
+  border-radius: 30px;
+  border-width: 3px;
+  width: 400px;
+  height: fit-content;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  justify-content: center;
+  place-content: center;
+  flex-wrap: wrap;
+  padding: 60px;
+  padding-top: 40px;
+}
+
+.S-subtitle {
+  margin-top: 20px;
+  font-size: medium;
+  text-align: left;
+  text-wrap: nowrap;
+  margin-left: auto;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.S-buttonSignup {
+  margin-top: 30px;
+  background-color: #8fd3fe;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #8fd3fe;
+  font-size: medium;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+.S-entry {
+  border-top: Gray;
+  border-right: Gray;
+  border-left: Gray;
+  font-size: small;
+  font-style: italic;
+  width: 270px;
+  height: 40px;
+  padding: 5px, 10px;
+  min-width: 270px
+}
+
+#FormSignup { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

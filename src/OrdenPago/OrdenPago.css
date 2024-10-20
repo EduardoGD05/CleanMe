@@ -1,0 +1,28 @@
+.ordenes-de-pago-container {
+    margin: 20px;
+  }
+  
+  .ordenes-de-pago-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ordenes-de-pago-table th,
+  .ordenes-de-pago-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .ordenes-de-pago-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .ordenes-de-pago-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .fila-deshabilitada {
+    background-color: #eee;
+  }
+  
