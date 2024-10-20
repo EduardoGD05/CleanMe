@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Servicio de Lavandería y Tintorería
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web desarrollada en React para un servicio de lavandería y tintorería, que permite a los usuarios realizar órdenes de lavado de ropa de manera eficiente y cómoda. La plataforma ofrece múltiples módulos para gestionar inventarios, ventas, compras, entregas y clientes.
 
-## Available Scripts
+## Características del Proyecto
+- Interfaz amigable y responsiva.
+- Registro y gestión de productos en inventario.
+- Proceso de ventas y seguimiento de órdenes.
+- Gestión de entregas y comunicación con los clientes.
+- Funciones para el manejo de clientes y sus pedidos.
 
-In the project directory, you can run:
+## Módulos
 
-### `npm start`
+### Inventarios
+Gestión de entradas y salidas de productos con las siguientes funcionalidades:
+- `MostrarInventario()`: Visualiza productos y cantidades disponibles.
+- `ModificarInventario()`: Permite actualizar el inventario.
+- `EnviarReporte()`: Envía informes detallados del estado del inventario.
+- `CalcularTotal()`: Calcula el total de compras.
+- `HacerPedido()`: Realiza pedidos a proveedores.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Ventas
+Módulo que gestiona las transacciones de venta:
+- `CalcularCosto()`: Calcula el costo total de los servicios.
+- `EnviarOrden()`: Envía la orden para procesamiento.
+- `TrabajarOrden()`: Facilita el seguimiento de órdenes en curso.
+- `DescribirOrden()`: Proporciona detalles de la orden de venta.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Compras
+Gestión de adquisiciones de productos:
+- `GenerarOrdenes()`: Crea órdenes de compra automáticas o manuales.
+- `EstadoOrdenes()`: Rastrear el estado de las órdenes de compra.
+- `RegistrarFacturas()`: Registra facturas relacionadas con compras.
 
-### `npm test`
+### Entregas
+Optimización de la entrega de servicios:
+- `CalcularEntrega()`: Calcula la fecha y hora estimadas de entrega.
+- `LlamarRepartidor()`: Asigna tareas a repartidores.
+- `AvisarCliente()`: Notifica al cliente sobre el estado de su pedido.
+- `FinalizarOrden()`: Marca la orden como completada.
+- `RevisarEstado()`: Verifica el estado de entregas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clientes
+Gestión de datos de clientes:
+- `IniciarSesion()`: Permite a los usuarios acceder a sus cuentas.
+- `Pedir()`: Facilita la selección de productos y envío de pedidos.
+- `Pagar()`: Completa el proceso de pago.
+- `RastrearPedido()`: Permite a los usuarios seguir sus pedidos.
+- `Reclamar()`: Presenta quejas relacionadas con pedidos.
+- `ActualizarInformacion()`: Modifica información del perfil.
+- `BorrarCuenta()`: Elimina cuentas de usuario.
+- `CerrarSesion()`: Cierra sesión de forma segura.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Implementación de IA
+La IA, integrada mediante Gemini, ofrece:
+- Asistencia al usuario.
+- Recomendaciones personalizadas.
+- Soporte en la resolución de problemas.
